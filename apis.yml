@@ -1,8 +1,25 @@
 aid: k4connect
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/k4connect.png
 name: K4Connect
-description: 'K4Connect is a company surfaced as a portfolio company of sierra-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: digital-health. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'K4Connect is a Morrisville, North Carolina technology company serving the senior living
+  industry, backed by Sierra Ventures. Its patented FusionOS integration and data platform provides
+  two-way ("One-to-Many") interoperability that shares the who, what and when of a community between
+  every integrated system, connecting 50+ leading applications, devices and services. On top of FusionOS
+  sits K4Community, an enterprise engagement suite of interconnected modules: Team Hub for staff, the
+  Plus App for residents, Voice (Amazon Alexa), K4TV infotainment, Digital Signage, and smart-home
+  Resident Check-In. K4Connect operates a partner-led integration model rather than a public self-serve
+  developer API; integrations are built and coordinated through FusionOS.'
 url: https://raw.githubusercontent.com/api-evangelist/k4connect/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Digital Health
+- Senior Living
+- Aging Technology
+- Integration Platform
+- Data Interoperability
+- Smart Home
+- Resident Engagement
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/k4connect-domain-security.yml
 - type: Website
   url: https://k4connect.com/
+- type: Support
+  url: https://support.k4connect.com/
+- type: Blog
+  url: https://www.k4connect.com/blogs/
+- type: TermsOfService
+  url: https://www.k4connect.com/legal-sla/
+- type: PrivacyPolicy
+  url: https://www.k4connect.com/privacy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
